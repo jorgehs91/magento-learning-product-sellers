@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Learning\ProductSellers\Api\Data\ProductSellerInterface"
+                type="Learning\ProductSellers\Model\Data\ProductSeller"/>
+    <preference for="Learning\ProductSellers\Api\Data\ProductSellerSearchResultsInterface"
+                type="Magento\Framework\Api\SearchResults"/>
+    <preference for="Learning\ProductSellers\Api\ProductSellerRepositoryInterface"
+                type="Learning\ProductSellers\Model\ProductSellerRepository"/>
+    <preference for="Learning\ProductSellers\Api\Data\ProductSellerItemInterface"
+                type="Learning\ProductSellers\Model\Data\ProductSellerItem"/>
+    <preference for="Learning\ProductSellers\Api\Data\ProductSellerItemSearchResultsInterface"
+                type="Magento\Framework\Api\SearchResults"/>
+    <preference for="Learning\ProductSellers\Api\ProductSellerItemRepositoryInterface"
+                type="Learning\ProductSellers\Model\ProductSellerItemRepository"/>
+</config>

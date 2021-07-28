@@ -1,0 +1,30 @@
+{
+    "learning_product_seller": {
+        "column": {
+            "seller_id": true,
+            "seller_name": true,
+            "seller_telephone": true
+        },
+        "index": {
+            "LEARNING_PRODUCT_SELLER_SELLER_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "learning_product_seller_item": {
+        "column": {
+            "item_id": true,
+            "seller_id": true,
+            "product_id": true
+        },
+        "index": {
+            "LEARNING_PRODUCT_SELLER_ITEM_ITEM_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "LEARNING_PRD_SELLER_ITEM_SELLER_ID_LEARNING_PRD_SELLER_SELLER_ID": true,
+            "LEARNING_PRD_SELLER_ITEM_PRD_ID_CAT_PRD_ENTT_ENTT_ID": true
+        }
+    }
+}

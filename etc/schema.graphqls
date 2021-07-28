@@ -1,0 +1,21 @@
+type Query {
+    productSellers (
+        seller_id: Int
+    ): [ProductSeller] @resolver(class: "Learning\\ProductSellers\\Model\\Resolver\\ProductSeller")
+}
+
+input ProductSellers {
+    product_sellers: [ProductSellers]
+}
+
+type ProductSeller {
+    seller_id: Int
+    seller_name: String
+    seller_telephone: String
+    seller_products: [ProductSellerItem]
+}
+
+type ProductSellerItem {
+    item_id: Int
+    product_id: Int
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Learning_ProductSellers::top_level" module="Learning_ProductSellers"
+             resource="Magento_Backend::content" sortOrder="400" title="Product Sellers"/>
+        <add id="Learning_ProductSellers::second_level" title="Product Sellers" module="Learning_ProductSellers"
+             resource="Magento_Backend::content" parent="Learning_ProductSellers::top_level"/>
+        <add id="Learning_ProductSellers::product_sellers" title="Product Sellers List" module="Learning_ProductSellers"
+             resource="Learning_ProductSellers::list" parent="Learning_ProductSellers::second_level"
+             action="product_sellers/index/index"/>
+    </menu>
+</config>

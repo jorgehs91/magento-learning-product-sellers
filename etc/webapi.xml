@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/productSellers" method="POST">
+        <service class="Learning\ProductSellers\Api\ProductSellerRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Learning_ProductSellers::list_save"/>
+        </resources>
+    </route>
+    <route url="/V1/productSellers/:sellerId" method="PUT">
+        <service class="Learning\ProductSellers\Api\ProductSellerRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Learning_ProductSellers::list_update"/>
+        </resources>
+    </route>
+    <route url="/V1/productSellers/:sellerId" method="DELETE">
+        <service class="Learning\ProductSellers\Api\ProductSellerRepositoryInterface" method="deleteById"/>
+        <resources>
+            <resource ref="Learning_ProductSellers::list_delete"/>
+        </resources>
+    </route>
+    <route url="/V1/productSellers/:sellerId" method="GET">
+        <service class="Learning\ProductSellers\Api\ProductSellerRepositoryInterface" method="get"/>
+        <resources>
+            <resource ref="Learning_ProductSellers::list_view"/>
+        </resources>
+    </route>
+    <route url="/V1/productSellers" method="GET">
+        <service class="Learning\ProductSellers\Api\ProductSellerRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="Learning_ProductSellers::list_view"/>
+        </resources>
+    </route>
+</routes>

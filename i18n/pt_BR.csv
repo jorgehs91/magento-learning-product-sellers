@@ -1,0 +1,32 @@
+Back,Voltar
+"Delete Seller","Deletar Vendedor"
+"Are you sure you want to do this?","Você tem certeza de que deseja fazer isso?"
+"Save and Continue Edit","Salvar e Continuar a Editar"
+"Save Seller","Salvar Vendedor"
+"You have deleted the Seller.","Você deletou o Vendedor"
+"We can't find a Seller to delete.","Não conseguimos encontrar um Vendedor para Deletar."
+"This Seller no longer exists.","Este Vendedor já não existe mais."
+"Edit Seller","Editar Vendedor"
+"Create Seller","Criar Vendedor"
+"Product Seller","Vendedor de Produtos"
+"Product Sellers List","Lista de Vendedor de Produtos"
+"A total of %1 element(s) have been deleted.","Um total de %1 elementos foram deletados."
+"You have saved the Seller.","Você salvou o Vendedor."
+"Something went wrong while saving Seller","Algo deu errado durante o salvamento do Vendedor."
+Learning,Learning
+"Product Sellers","Vendedores de Produtos"
+"Could not save the Product Seller %1.","Não foi possível salvar o Vendedor de Produto %1."
+"Product Seller with id %1 not found.","Vendedor de Produto com o id %1 não encontrado."
+"Could not delete Product Seller: %1","Não foi possível deletar o Vendedor de Produto: %1"
+Edit,Editar
+Delete,Deletar
+"Delete %1's Seller","Deletar o Vendedor %1"
+"Are you sure you wan't to delete %1's Seller?","Você tem certeza de que quer deletar o Vendedor %1?"
+"General Information","Informações Gerais"
+Products,Produtos
+"Add Seller","Adicionar Vendedor"
+"Delete selected items?","Deletar os itens selecionados?"
+"Delete items","Deletar itens"
+ID,ID
+"Seller Name","Nome do Vendedor"
+"Seller Telephone","Telefone do Vendedor"
